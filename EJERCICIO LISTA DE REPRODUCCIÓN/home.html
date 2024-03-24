@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Reproductor de Música</title>
+</head>
+
+<body>
+
+    <div id="general">
+        <div class="buscador">
+            <label for=""></label>
+            <input type="text" id="input-buscardor" placeholder="">
+            <button id="botonBuscar">BUSCAR</button>
+
+        </div>
+
+        <div class="TodasCanciones" id="TodaslasCanciones">
+            <h3>LISTA CANCIONES</h3>
+            <div id="allSongsConteiner">
+                <div class="busquedacanciones">
+                    <img class="portada-cancion" src="./asset/PORTADAS/PortadaAlbum.jpg" alt="portada-canciones">
+                    <div class="cancion">
+                        <div class="nombre-cancion">cancion1</div>
+                        <div class="artista">artista1</div>
+                    </div>
+                    <div class="busquedacanciones">
+                        <img class="portada-cancion" src="./asset/PORTADAS/PortadaAlbum.jpg" alt="portada-canciones">
+                        cancion2
+                        <div class="butonesCancion">
+                            <button class="play-little"><img src="./asset/play-solid.svg" alt="play"></button>
+
+                            <button id="heart-solid"><img src="./asset/heart-solid.svg" alt="corazon" ></button>
+
+                            <button id="plus"><img src="./asset/plus-solid.svg" alt="plus" onclick=""></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="Playlist" id="MiPlaylist1">
+            <h3>MI PLAYLIST</h3>
+            <div id="playlistConteiner">
+                <div class="busquedacanciones">
+                    <img class="portada-cancion" src="./asset/PORTADAS/PortadaAlbum.jpg" alt="portada-canciones">
+
+                    <div class="cancion">
+                        <div class="nombre-cancion">cancion1</div>
+                        <div class="artista">artista1</div>
+                    </div>
+                    <div class="butonesCancion">
+                        <button id="play"><img src="./asset/play-solid.svg" alt="play"></button>
+
+                        <button id="heart-solid"><img src="./asset/heart-solid.svg" alt="corazon"></button>
+
+                        <button id="trash"><img src="./asset/trash-solid.svg" alt="trash"></button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="Favoritos" id="MisFavoritos">
+            <h3>MIS FAVORITOS</h3>
+            <div id="favoritesConteiner">
+                <div class="busquedacanciones">
+                    <img class="portada-cancion" src="./asset/PORTADAS/PortadaAlbum.jpg" alt="portada-canciones">
+                    cancion1
+                    <div class="butonesCancion">
+                        <button id="play"><img src="./asset/play-solid.svg" alt="play"></button>
+
+                        <button id="heart"><img src="./asset/heart-regular.svg" alt="corazon"></button>
+
+                        <button id="plus"><img src="./asset/plus-solid.svg" alt="plus"></button>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div id="rigthside">
+        
+        <main id="conteiner-Reproductor">
+            <div id="cancion-Reproductor">
+                <img id="albumImg" src="" alt="album1">
+                <div class="infoCancion">
+                    <p>NOMBRE: </p>
+                    <p>DURACIÓN: </p>
+                    <p>ÁLBUM: </p>
+                    <p>AÑO: </p>
+                    <p>GÉNERO: </p>
+                </div>
+            </div>
+
+            <div id="botonesReproductor">
+
+                <button class="play-boton" id="volume-button"  ><img src="./asset/volume-high-solid.svg" alt=""></button>
+
+                <button class="play-boton" id="back-button"><img src="./asset/backward-solid.svg" alt=""></button>
+
+                <button class="play-boton" id="play-button"  data-Song="play" ><img src="./asset/play-solid.svg" alt="play"></button>
+
+                <button class="play-boton" id="pause-button"><img src="./asset/pause-solid.svg" alt=""></button>
+
+                <button class="play-boton" id="foward-button"><img src="./asset/forward-solid.svg" alt=""></button>
+
+                <button class="play-boton" id="mute-button"><img src="./asset/volume-xmark-solid.svg" alt=""></button>
+
+
+            </div>
+        </main>
+
+    </div>
+
+
+    <script src="./main.js">  </script>
+</body>
+
+</html>
+
+

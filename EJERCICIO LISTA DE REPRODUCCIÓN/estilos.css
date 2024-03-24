@@ -1,0 +1,333 @@
+ body {
+    background-image: url("asset/8808535.jpg");
+    width: auto;
+    height: auto;
+}
+
+.imagen {
+    width: 20em;
+    border-radius: 20%;
+}
+
+.usuario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contraseña {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Login-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 40%;
+    height: 30%;
+    margin-right: 50%;
+    margin-left: 30%;
+    font-size: 20px;
+    font-family: 'Gill Sans' ;
+    font-weight: bold ;
+    font-style: italic;
+
+}
+
+
+ #inicioPantalla {
+     display: block;
+     text-align: center;
+     margin-top: 5%;
+     margin-left: 5%;
+     margin-right: 5%;
+     padding-top: 10%;
+     align-items: center;
+     border-radius: 40%;
+     background-color: palevioletred;
+     width: 185%;
+     height: 100%;
+ }
+
+
+ 
+
+ .usuario {
+     padding-top: 1em;
+
+ }
+
+ .contraseña {
+     padding-top: 1em;
+ }
+
+ #boton-iniciarSesion {
+
+     margin-top: 1em;
+     padding: 0.7em 0.5em 0.7em 0.5em;
+     background: black;
+     border-radius: 5em;
+     font-weight: bold;
+     font-size: 20px;
+     color: white;
+
+ }
+
+ #username {
+     border-radius: 1.5em;
+     padding: 0.2em 0.5em;
+ }
+
+ #contraseña {
+     border-radius: 1.5em;
+     padding: 0.2em 0.5em;
+ }
+
+ #Login {
+     display: flex;
+     justify-content: flex-end;
+     margin-top: 1em;
+     margin-right: 1em;
+
+ }
+
+ .user-icon {
+     width: 1.2em;
+
+ }
+
+ .portada-cancion {
+
+     height: 4em;
+     margin-right: 0.5em;
+     margin-bottom: 0.5em;
+
+     border-radius: 20%;
+
+ }
+
+ .busquedacanciones {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     text-wrap: wrap;
+     gap: 0.5em;
+     padding-right: 0.5em;
+
+ }
+
+ .cancion {
+     text-align: center;
+     font-family: 'Times New Roman';
+     color: white;
+     font-weight: bold;
+ }
+
+
+ h3 {
+     padding-left: 1em;
+     font-family: 'Gill Sans';
+     color: aliceblue;
+     font-weight: bold;
+ }
+
+ #general {
+     justify-self: end;
+     display: grid;
+     grid-template-columns: 1fr;
+ }
+
+
+ .buscador {
+     margin: 1em 1.5em;
+ }
+
+ #input-buscardor {
+     padding: 0.2em 0.5em;
+     border-radius: 1em;
+     width: 100%;
+     height: 80%;
+
+
+ }
+
+ #botonBuscar {
+    margin-top: 1%;
+     border-radius: 20%;
+     cursor: pointer;
+     background-color: black;
+     color: white;
+     width: 30%;
+     height: 50%;
+ }
+
+
+ .butonesCancion {
+     display: block;
+     text-wrap: nowrap;
+
+ }
+
+ .butonesCancion img {
+     width: 2em;
+     height: 2em;
+
+ }
+
+ .butonesCancion button {
+     background: none;
+     border: none;
+     cursor: pointer;
+ }
+
+
+
+ .TodasCanciones {
+     width: 28em;
+     height: 18em;
+
+     overflow-y: scroll;
+     margin: 1em;
+     border-radius: 10%;
+     background-color: palevioletred;
+
+ }
+
+ .Favoritos {
+     margin: 1em;
+     overflow-y: scroll;
+     border-radius: 10%;
+
+     height: 10em;
+     width: 30em;
+     background-color:palevioletred;
+ }
+
+ .Playlist {
+     margin: 1em;
+     overflow-y: scroll;
+     border-radius: 10%;
+
+     height: 10em;
+     width: 30em;
+     background-color: palevioletred;
+
+
+ }
+
+ #TodaslasCanciones {
+     padding-left: 1.7em;
+
+
+ }
+
+ #playlistConteiner {
+     padding-left: 1.7em;
+ }
+
+ #favoritesConteiner {
+     padding-left: 1.7em;
+ }
+
+
+
+ body {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 1em;
+
+
+
+
+ }
+
+ #rigthside {
+     justify-self: start;
+
+ }
+
+ #conteiner-Reproductor {
+     margin-top: 1em;
+     margin-bottom: 3em;
+     border-radius: 5%;
+     padding: 0.5em 1.5em;
+     background-color: palevioletred;
+     width: 35em;
+
+
+
+ }
+
+ .play-boton {
+    width: 3em;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#botonesReproductor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+
+}
+
+ #cancion-Reproductor {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-radius: 5%;
+    padding: 0.5em 1.5em;
+    width: 40em;
+    height: 40em;
+
+
+}
+
+ .infoCancion {
+     margin-bottom: 2em;
+     margin-top: 2em;
+     margin-left: 2em;
+     border-radius: 5%;
+     font-family: 'Gill Sans';
+    font-weight: bold;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    width: 65%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+
+
+
+ }
+
+ #albumImg {
+
+     margin: 1em 1em;
+     width: 30em;
+     border-radius: 10%;
+     display: block;
+
+
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
